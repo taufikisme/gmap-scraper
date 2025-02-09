@@ -281,7 +281,7 @@ const main = async () => {
       ).values(),
     ];
 
-    fs.writeFileSync(FILE_PATH, JSON.stringify(updatedData, null, 2));
+    fs.writeFileSync(FILE_PATH, JSON.stringify(updatedData));
 
     console.log('\n');
   }
